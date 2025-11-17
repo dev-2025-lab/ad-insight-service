@@ -22,7 +22,7 @@ class AdInsightsControllerTest {
 	@Autowired
 	private MockMvc mockMvc;
 
-	@MockBean // ✅ Replace @MockBean
+	@MockBean 
 	private AdInsightsService service;
 
 	private static final String TENANT_ID = "X-Tenant-ID";
